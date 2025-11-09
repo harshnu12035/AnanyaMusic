@@ -71,7 +71,7 @@ Ananya_Repo = "https://files.catbox.moe/vnmzyi.mp4"
 async def show_video_callback(_, query):
     await query.answer()
     try:
-        video_link = os.getenv("ANANYA_REPO", Shruti_Repo)
+        video_link = os.getenv("ANANYA_REPO", Ananya_Repo)
 
         await query.message.edit_media(
             media=InputMediaVideo(
