@@ -204,6 +204,9 @@ async def gen_thumb(videoid: str):
         font = ImageFont.truetype("AnanyaMusic/assets/font.ttf", 30)
         title_font = ImageFont.truetype("AnanyaMusic/assets/font3.ttf", 45)
 
+        text_size = draw.textsize("@ A n a n y a B o t s   ", font=font)
+        draw.text((1280 - text_size[0] - 10, 10), "@ A n a n y a B o t s   ", fill="black", font=font)
+
 
         circle_thumbnail = crop_center_circle(youtube, 400, 20, start_gradient_color)
         circle_thumbnail = circle_thumbnail.resize((400, 400))
