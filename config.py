@@ -52,7 +52,7 @@ HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 # 🔄 Git & Update Settings
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/ZOXXOP/AnanyaMusic")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/PARIMUSIC/AnanyaMusic")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
@@ -113,7 +113,7 @@ VIDEO_API_URL = os.getenv("VIDEO_API_URL", "https://api.video.thequickearn.xyz")
 API_KEY = os.getenv("30DxNexGenBots4d6508", None) # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
 
 START_VIDEO_URL = os.getenv("START_VIDEO_URL", "https://files.catbox.moe/1tnq00.mp4")
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/hee6pf.jpg")
+START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/om8z08.jpg")
 PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/hee6pf.jpg")
 PLAYLIST_IMG_URL = "https://files.catbox.moe/hee6pf.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/hee6pf.jpg"
