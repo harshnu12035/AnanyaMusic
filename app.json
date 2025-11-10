@@ -34,7 +34,7 @@
     },
     "MONGO_DB_URI": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
-      "value": "mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION",
+      "value": "mongodb+srv://pusers:adcreation@adcreation.k8oapou.mongodb.net/?appName=ADCREATION",
       "required": true
     },
     "OWNER_ID": {
