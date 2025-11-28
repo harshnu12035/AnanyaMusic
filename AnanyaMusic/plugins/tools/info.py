@@ -56,42 +56,6 @@ resize_text = lambda text_size, text: (
 
 # --------------------------------------------------------------------------------- #
 
-
-async def get_userinfo_img(
-    bg_path: str,
-    font_path: str,
-    user_id: Union[int, str],
-    profile_path: Optional[str] = None,
-):
-    bg = Image.open(bg_path)
-
-    if profile_path:
-        img = Image.open(profile_path)
-        mask = Image.new("L", img.size, 0)
-        draw = ImageDraw.Draw(mask)
-        draw.pieslice([(0, 0), img.size], 0, 360, fill=255)
-
-        circular_img = Image.new("RGBA", img.size, (0, 0, 0, 0))
-        circular_img.paste(img, (0, 0), mask)
-        resized = circular_img.resize((400, 400))
-        bg.paste(resized, (440, 160), resized)
-
-    img_draw = ImageDraw.Draw(bg)
-
-    img_draw.text(
-        (529, 627),
-        text=str(user_id).upper(),
-        font=get_font(46, font_path),
-        fill=(255, 255, 255),
-    )
-
-    path = f"downloads/userinfo_img_{user_id}.png"
-    bg.save(path)
-    return path
-
-
-# --------------------------------------------------------------------------------- #
-
 bg_path = "AnanyaMusic/assets/Akash_Daksh1c.png"
 font_path = "AnanyaMusic/assets/font.ttf"
 
@@ -109,7 +73,6 @@ INFO_TEXT = """
 ➻ ᴍᴇɴᴛɪᴏɴ ‣ {}
 ➻ ʟᴀsᴛ sᴇᴇɴ ‣ {}
 ➻ ᴅᴄ ɪᴅ ‣ {}
-➻ ʙɪᴏ ‣ {}
 
 ❅─────✧❅✦❅✧─────❅
 """
