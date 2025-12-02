@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-<a href="https://dashboard.heroku.com/new?template=https://github.com/PARIMUSIC/AnanyaMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku&logoColor=white" width="250px" alt="Deploy to Heroku"></a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/harshnu12035/AnanyaMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku&logoColor=white" width="250px" alt="Deploy to Heroku"></a>
 </p>
 
 <h2 align="center">🚀 Deploy to Render (Free)</h2>
