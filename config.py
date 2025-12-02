@@ -114,17 +114,17 @@ API_KEY = os.getenv("30DxNexGenBots4d6508", None) # youtube song api key, genera
 
 START_VIDEO_URL = os.getenv("START_VIDEO_URL", "https://files.catbox.moe/1tnq00.mp4")
 START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/om8z08.jpg")
-PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/hee6pf.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/hee6pf.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/hee6pf.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/hee6pf.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/hee6pf.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/hee6pf.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/hee6pf.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/hee6pf.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/hee6pf.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/hee6pf.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/hee6pf.jpg"
+PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/vvxctk.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/vvxctk.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/vvxctk.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/vvxctk.jpg"
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔐 User & Bot State Stores
